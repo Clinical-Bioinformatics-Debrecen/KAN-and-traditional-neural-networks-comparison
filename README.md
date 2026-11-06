@@ -24,7 +24,7 @@ A DNS szekvenciák eredet szerinti osztályozása fontos feladat például metag
 
 **Projekthez tartozó információk összegzése:**
 
-A többrétegű perceptronok (MLP-k) a mélytanulási architektúrák alapvető építőelemei, és több neuronszintből állnak. 
+Az MLP-k a mélytanulási architektúrák alapvető építőelemei, és több neuronszintből állnak. 
 
 <img width="1144" height="1020" alt="image" src="https://github.com/user-attachments/assets/0031e59f-b1b5-4def-9b55-8f7d50b24652" />
 
