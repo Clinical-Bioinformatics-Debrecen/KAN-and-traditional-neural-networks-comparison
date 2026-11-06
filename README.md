@@ -16,7 +16,7 @@ Kolmogorov–Arnold Networkök (KAN-ok) és tradicionális neurális hálózatok
 - PhageScope – bakteriofágok https://phagescope.deepomics.org/
 
 
-A projektet Python nyelven, objektumorientált programozási megközelítés alkalmazásával fogjuk megvalósítani.
+A projektet Python nyelven, objektumorientált programozási megközelítés alkalmazásával fogjuk megvalósítani. (Pykan használata)
 
 **Projekt leírása:**
 
@@ -35,7 +35,7 @@ Három fő részből állnak:
 
 A KAN ezeknek az MLP-knek az alternatívája, amely jobb értelmezhetőséget és nagyobb pontosságot kínál. A legfontosabb különbség, hogy a hagyományos hálózatok tanulható súlyokkal dolgoznak, míg a KAN a neuronok közötti kapcsolatokon tanulható matematikai függvényeket alkalmaz. Ezeket a függvényeket B-spline görbékkel reprezentálja, ami lehetővé teszi az összetett összefüggések modellezését és potenciálisan a hálózat működésének jobb értelmezhetőségét.
 
-Legfontosabb előnyeik közé tartozik a nemlineáris összefüggések rugalmas modellezése és a tanult kapcsolatok értelmezhetőségének lehetősége.
+Legfontosabb előnyeik közé tartozik a nemlineáris összefüggések rugalmas modellezése és a tanult kapcsolatok értelmezhetőségének lehetősége. Ugyanakkor a KAN nem minden feladatban teljesít jobban az MLP-nél, és tanítása nagyobb számítási erőforrást igényelhet.
 
 **Szakirodalmi összefoglaló:**
 
@@ -72,4 +72,33 @@ Zhu, Y. et al. (2026).
 
 A tanulmány az IKANbind nevű modellt mutatja be, amely KAN-t, fehérje nyelvi modelleket és hipergráf-alapú reprezentációtanulást kombinál az aminosavak azonosítására. A megközelítés a DNS- és RNS-kötő fehérjékben található kötőhelyek felismerését célozza. Az eredmények szerint többek között az aminosavak töltése és polaritása fontos szerepet játszik a nukleinsavkötő helyek felismerésében. 
 
+## Munkaterv fő lépései
 
+**1. Szakirodalom feldolgozása**
+
+- A KAN és MLP architektúrák működésének, előnyeinek és korlátainak megismerése.
+- Vizsgált osztályok/tervezett adatforrások átnézése
+
+**2. Adatgyűjtés**
+
+- Megfelelő szekvenciák kiválasztása (PLSDB2, RefSeq, , Phagescope)
+
+**3. Adatfeldolgozás**
+
+- Minőségellenőrzés
+
+**4. Adathalmazok kialakítása**
+
+- A tanító-, validációs és teszthalmaz létrehozása
+
+**5. Modellek alkalmazása**
+
+- Modellek betanítása, optimalizálása
+
+**6. Értékelés, modellek összehasonlítása**
+
+- Accuracy, Precision, ROC, F1
+
+**7. Eredmények dokumentálása**
+
+- Vizualizáció és interpretáció
