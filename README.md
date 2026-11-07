@@ -83,22 +83,18 @@ A tanulmány az IKANbind nevű modellt mutatja be, amely KAN-t, fehérje nyelvi 
 
 - Megfelelő szekvenciák kiválasztása (PLSDB2, RefSeq, Phagescope)
 
-**3. Adatfeldolgozás**
+**3. Adathalmazok kialakítása**
 
-- Minőségellenőrzés
+- A tanító-, validációs és teszthalmaz létrehozása (80-10-10)
 
-**4. Adathalmazok kialakítása**
-
-- A tanító-, validációs és teszthalmaz létrehozása
-
-**5. Modellek alkalmazása**
+**4. Modellek alkalmazása**
 
 - Modellek betanítása, optimalizálása
 
-**6. Értékelés, modellek összehasonlítása**
+**5. Értékelés, modellek összehasonlítása**
 
 - Accuracy, Precision, ROC, F1
 
-**7. Eredmények dokumentálása**
+**6. Eredmények dokumentálása**
 
 - Vizualizáció és interpretáció
