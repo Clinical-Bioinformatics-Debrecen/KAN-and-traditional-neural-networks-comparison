@@ -81,7 +81,7 @@ A tanulmány az IKANbind nevű modellt mutatja be, amely KAN-t, fehérje nyelvi 
 
 **2. Adatgyűjtés**
 
-- Megfelelő szekvenciák kiválasztása (PLSDB2, RefSeq, , Phagescope)
+- Megfelelő szekvenciák kiválasztása (PLSDB2, RefSeq, Phagescope)
 
 **3. Adatfeldolgozás**
 
